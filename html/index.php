@@ -1,12 +1,13 @@
 <?php include('partials/_header.php'); ?>
-<section>
+
+<section class="home-opener">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6">
-				<p>This digital online course
+			<div class="col-sm-5">
+				<h2>This digital online course
 				with John C. Maxwell is your
 				guide to experiencing your
-				most fulfilling life.</p>
+				most fulfilling life.</h2>
 
 				<p>
 				<a href="" class="btn btn-default">Buy Now</a>

@@ -1,1 +1,38 @@
 // Page Structure
+
+* {
+  outline: none;
+}
+
+body {
+  background: $reverse-color;
+  color: $text-color;
+  font-family: $text-font;
+}
+
+a, a:visited {
+  color: $primary-color;
+}
+
+// Header
+
+#global-header {
+  background: $secondary-color;
+  color: $reverse-color;
+  padding: $gutter*.75;
+
+  .btn {
+    text-transform: uppercase;
+    padding: 6px 20px; 
+    margin-right: 8px;
+    margin-left: 8px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.ewp-logo {
+  max-width: 340px;
+}

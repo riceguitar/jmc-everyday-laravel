@@ -1,0 +1,16 @@
+.btn {
+  border-radius: 100px;
+  &:hover {
+    color: inherit;
+  }
+}
+
+.btn-reverse {
+  color: $reverse-color;
+  border-color: $reverse-color;
+}
+
+.btn-highlight {
+  color: $primary-color;
+  border-color: $primary-color;
+}
