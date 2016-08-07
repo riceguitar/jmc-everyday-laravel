@@ -116,6 +116,7 @@
 	</div>
 </section>	
 
+
 <section class="home-purchase">
 	<div class="container">
 
@@ -126,9 +127,39 @@
 		</div>
 
 		<div class="row">
-			<div class="col-sm-5">
+			<div class="col-sm-5 col-sm-offset-1">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h3>Indiviual Pricing</h3>
+						<div class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-primary active">
+						    <input type="radio" name="options" id="option1" autocomplete="off" checked>1 Payment
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off">3 Payments
+						  </label>
+						</div>
+						<h2 class="pricing">$199</h2>
+						<p>Access for 1 person</p>
+					</div>
+				</div>
 			</div>
 			<div class="col-sm-5">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h3>Indiviual Pricing</h3>
+						<div class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-primary active">
+						    <input type="radio" name="options" id="option1" autocomplete="off" checked>1 Payment
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off">3 Payments
+						  </label>
+						</div>
+						<h2 class="pricing">$199</h2>
+						<p>Access for 1 person</p>
+					</div>
+				</div>
 			</div>
 		</div>
 
