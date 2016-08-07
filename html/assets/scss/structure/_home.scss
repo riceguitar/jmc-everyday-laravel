@@ -8,3 +8,62 @@
     padding-right: 10px;
   }
 }
+
+.home-icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  width: 65px;
+  height: 65px;
+  display: block;
+  margin: 0 auto $gutter*.5 auto;
+  &.home-icon-video {     background-image: url(../images/icon-video.png);    }
+  &.home-icon-document {  background-image: url(../images/icon-document.png);    }
+  &.home-icon-lifetime {  background-image: url(../images/icon-lifetime.png);    }
+  &.home-icon-compass {   background-image: url(../images/icon-compass.png);    }
+}
+
+.home-icon-row {
+  p {
+    font-size: 17px;
+  }
+}
+
+.home-what {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 22px;
+  }
+}
+
+.home-quote {
+  .quote {
+    border: 1px solid $primary-color;
+    font-size: 25px;
+    text-align: center;
+    padding: $gutter *.75;
+  }
+}
+
+.home-value {
+
+}
+
+.home-purchase {
+  background: #f6f6f6;
+  .purchase-title {
+    background: $primary-color;
+    color: $reverse-color;
+    text-align: center;
+    padding: $gutter;
+    margin-top: 0;
+  }
+}

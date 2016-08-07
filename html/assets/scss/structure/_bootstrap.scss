@@ -1,16 +1,41 @@
 .btn {
   border-radius: 100px;
+  text-transform: uppercase;
   &:hover {
     color: inherit;
   }
 }
 
-.btn-reverse {
+a.btn-reverse {
   color: $reverse-color;
   border-color: $reverse-color;
 }
 
-.btn-highlight {
+a.btn-highlight {
   color: $primary-color;
   border-color: $primary-color;
 }
+
+a.btn-highlight-solid {
+  color: $reverse-color;
+  background: $primary-color;
+  border-color: $primary-color;
+}
+
+/**
+ * Spacing Variables
+ */
+$enable-margins:          true;
+$enable-margins--tiny:    true;
+$enable-margins--small:   true;
+$enable-margins--large:   true;
+$enable-margins--huge:    false;
+$enable-margins--none:    true;
+
+
+$enable-paddings:         true;
+$enable-paddings--tiny:   true;
+$enable-paddings--small:  true;
+$enable-paddings--large:  true;
+$enable-paddings--huge:   false;
+$enable-paddings--none:   true;

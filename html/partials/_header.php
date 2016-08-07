@@ -24,9 +24,9 @@
             <!-- @todo Toggle Menus depending on login/out status -->
 
             <!-- Logged Out Users -->
-            <a class="btn btn-highlight">Buy</a>
-            <a class="btn btn-reverse">Contact Us</a>
-            <a class="btn btn-reverse">Logout</a>
+            <a class="btn btn-highlight" href="">Buy</a>
+            <a class="btn btn-reverse" href="">Contact Us</a>
+            <a class="btn btn-reverse" href="">Logout</a>
 
             <?php /*
             <!-- Logged in Users -->
