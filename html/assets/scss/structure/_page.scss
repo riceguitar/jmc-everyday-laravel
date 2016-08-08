@@ -36,3 +36,13 @@ a, a:visited {
 .ewp-logo {
   max-width: 340px;
 }
+
+// Footer 
+
+#global-footer {
+  background: $primary-color;
+  color: $reverse-color;
+  a {
+    color: $reverse-color;
+  }
+}

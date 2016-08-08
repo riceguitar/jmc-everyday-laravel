@@ -4798,6 +4798,12 @@ a, a:visited {
 .ewp-logo {
   max-width: 340px; }
 
+#global-footer {
+  background: #de3e18;
+  color: #ffffff; }
+  #global-footer a {
+    color: #ffffff; }
+
 .btn {
   border-radius: 100px;
   text-transform: uppercase; }
