@@ -4719,13 +4719,20 @@ button.close {
 /* **** Typography */
 /* **** Structure */
 .home-opener {
-  background: #0f0f16; }
+  background: #0f0f16 url("../images/john-looking.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 600px;
+  padding-top: 60px;
+  padding-bottom: 60px; }
   .home-opener h2 {
     color: #ffffff;
     font-size: 40px;
     font-weight: 300;
     line-height: 135%;
-    padding-right: 10px; }
+    padding-right: 10px;
+    padding-top: 90px;
+    padding-bottom: 30px; }
 
 .home-icon {
   background-repeat: no-repeat;
@@ -4763,6 +4770,50 @@ button.close {
   text-align: center;
   padding: 22.5px; }
 
+.home-hook {
+  background: url(../images/pattern.png) repeat;
+  background-size: 20px;
+  padding: 37.5px 0; }
+
+.home-testimonial-slider {
+  margin-top: -120px; }
+
+.quote-panel {
+  background: #de3e18;
+  color: #ffffff;
+  text-align: center;
+  padding: 37.5px 60px;
+  width: 80%;
+  float: right; }
+  .quote-panel h4 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+    .quote-panel h4:after {
+      display: block;
+      height: 1px;
+      background: #ffffff;
+      width: 60%;
+      content: "";
+      margin: 24px auto; }
+  .quote-panel p {
+    font-size: 16px; }
+    .quote-panel p span {
+      font-size: 27px;
+      font-weight: 500;
+      display: block; }
+  .quote-panel .quote-social-icon {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; }
+
 .home-purchase {
   background: #f6f6f6; }
   .home-purchase .purchase-title {
@@ -4784,9 +4835,11 @@ a, a:visited {
   color: #de3e18; }
 
 #global-header {
-  background: #0f0f16;
+  background: none;
   color: #ffffff;
-  padding: 22.5px; }
+  padding: 22.5px;
+  position: absolute;
+  width: 100%; }
   #global-header .btn {
     text-transform: uppercase;
     padding: 6px 20px;

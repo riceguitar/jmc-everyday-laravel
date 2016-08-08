@@ -17,9 +17,11 @@ a, a:visited {
 // Header
 
 #global-header {
-  background: $secondary-color;
+  background: none;
   color: $reverse-color;
   padding: $gutter*.75;
+  position: absolute;
+  width: 100%;
 
   .btn {
     text-transform: uppercase;

@@ -1,11 +1,18 @@
 .home-opener {
-  background: $secondary-color;
+  background: $secondary-color url('../images/john-looking.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 600px;
+  padding-top: $gutter*2;
+  padding-bottom: $gutter*2;
   h2 {
     color: $reverse-color;
     font-size: 40px;
     font-weight: 300;
     line-height: 135%;
     padding-right: 10px;
+    padding-top: $gutter*3;
+    padding-bottom: $gutter;
   }
 }
 
@@ -53,8 +60,56 @@
   }
 }
 
-.home-value {
+.home-hook {
+  background: url(../images/pattern.png) repeat;
+  background-size: 20px;
+  padding: $gutter*1.25 0;
+}
 
+.home-testimonial-slider {
+  margin-top: -$gutter*4;
+}
+
+.quote-panel {
+  background: $primary-color;
+  color: $reverse-color;
+  text-align: center;
+  padding: $gutter*1.25 $gutter*2;
+  width: 80%;
+  float: right;
+  h4 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &:after {
+      display: block;
+      height: 1px;
+      background: $reverse-color;
+      width: 60%;
+      content: "";
+      margin: $gutter*.8 auto;
+    }
+  }
+  p {
+    font-size: 16px;
+    span {
+      font-size: 27px;
+      font-weight: 500;
+      display: block;
+    }
+  }
+  .quote-social-icon {
+    color: $reverse-color;
+    border: 1px solid $reverse-color;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+  }
 }
 
 .home-purchase {

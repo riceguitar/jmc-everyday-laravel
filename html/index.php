@@ -46,12 +46,60 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-			
+
 				<!-- Slick Slider -->
 				<div class="home-testimonial-slider">
-				  <div>your content</div>
-				  <div>your content</div>
-				  <div>your content</div>
+				  <div>
+
+				  	<div class="quote-panel">
+				  		<h4>Latest Members</h4>
+				  		<p>
+				  			Congratulations,
+								<span class="quote-name">Chad Johnson</span>
+								for choosing to live
+								every day with purpose.
+							</p>
+							<div class="quote-social mt">
+								<a href="" class="quote-social-icon"><i class="fa fa-facebook"></i></a>
+								<a href="" class="quote-social-icon"><i class="fa fa-twitter"></i></a>
+							</div>
+				  	</div>
+
+				  </div>
+				  <div>
+
+				  	<div class="quote-panel">
+				  		<h4>Latest Members</h4>
+				  		<p>
+				  			Congratulations,
+								<span class="quote-name">Meridith Simes</span>
+								for choosing to live
+								every day with purpose.
+							</p>
+							<div class="quote-social mt">
+								<a href="" class="quote-social-icon"><i class="fa fa-facebook"></i></a>
+								<a href="" class="quote-social-icon"><i class="fa fa-twitter"></i></a>
+							</div>
+				  	</div>
+
+				  </div>
+				  <div>
+
+				  	<div class="quote-panel">
+				  		<h4>Latest Members</h4>
+				  		<p>
+				  			Congratulations,
+								<span class="quote-name">Jason Bourne</span>
+								for choosing to live
+								every day with purpose.
+							</p>
+							<div class="quote-social mt">
+								<a href="" class="quote-social-icon"><i class="fa fa-facebook"></i></a>
+								<a href="" class="quote-social-icon"><i class="fa fa-twitter"></i></a>
+							</div>
+				  	</div>
+
+				  </div>
 				</div>
 
 			</div>
@@ -62,10 +110,10 @@
 <section class="home-what">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-8">
+			<div class="col-sm-7">
 				<img src="assets/images/home-john-crowd.jpg" />
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 col-sm-offset-1">
 				<h2>What is Every Day With Purpose?</h2>
 				<p>Every Day With Purpose is a 4-part online
 				course designed to give you the tools you

@@ -9,8 +9,10 @@
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="assets/bower_components/slick-carousel/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="assets/bower_components/slick-carousel/slick/slick-theme.css"/>
+    
 
     <!-- Javascript -->
     <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
